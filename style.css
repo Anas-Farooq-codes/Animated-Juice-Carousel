@@ -82,11 +82,12 @@ header {
   text-align: center;
 }
 
+
 .logo {
   color: var(--pear-logo);
 }
 
-h1 {
+.h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -98,6 +99,7 @@ h1 {
 }
 
 /* Can Image and Wrapper Image */
+
 
 
 .can-image {
@@ -175,9 +177,9 @@ h1 {
   background: linear-gradient(90deg, #000 3.66%, rgba(0, 0, 0, 0) 92.35%);
   width: 173px;
   height: 30px;
-  opacity: 0.43;
-  filter: blur(7.5px);
-  -webkit-filter: blur(7.5px);
+  opacity: 0.25;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
   right: 0;
   transform: rotate(-6.941deg);
   -webkit-transform: rotate(-6.941deg);
