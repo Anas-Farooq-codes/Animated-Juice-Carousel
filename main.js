@@ -1,15 +1,15 @@
 // H1 TEXTS 
-let h1Texts = ["Pear", "Apple", "Exotic"];
+let h1Texts = ["Apple", "Pear", "Exotic"];
 
 // Logo Colors 
 let logoColors = [
-    "var(--pear-logo)",
     "var(--apple-logo)",
+    "var(--pear-logo)",
     "var(--exotic-logo)",
 ];
 
 // Keyframes 
-let keyframes = ["wave-pear-effect", "wave-apple-effect", "wave-exotic-effect"];
+let keyframes = ["wave-apple-effect", "wave-pear-effect", "wave-exotic-effect"];
 
 // GSAP Animation 
 gsap.from(".fruit-image", { y: "-100vh", delay: 0.5 });

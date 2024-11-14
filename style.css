@@ -84,10 +84,10 @@ header {
 
 
 .logo {
-  color: var(--pear-logo);
+  color: var(--apple-logo);
 }
 
-.h1 {
+h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -232,11 +232,11 @@ header {
   position: relative;
   overflow: hidden;
   z-index: -1;
-  background-color: var(--pear-background);
+  background-color: var(--apple-background);
 }
 
 .section:nth-child(2) {
-  background-color: var(--apple-background);
+  background-color: var(--pear-background);
 }
 
 .section:nth-child(3) {
@@ -283,8 +283,8 @@ button {
 }
 
 .wave {
-  animation: wave-apple-effect 4s linear infinite;
-  -webkit-animation: wave-apple-effect 4s linear infinite;
+  animation: wave-pear-effect 4s linear infinite;
+  -webkit-animation: wave-pear-effect 4s linear infinite;
   animation-direction: normal;
 }
 
