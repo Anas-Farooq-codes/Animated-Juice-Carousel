@@ -23,6 +23,8 @@ gsap.to(".fruit-image img", {
     repeat: -1
 });
 
+
+
 // Get the elements 
 const waveEffect = document.querySelector(".wave");
 const canLabels = document.querySelector(".canLabels");
