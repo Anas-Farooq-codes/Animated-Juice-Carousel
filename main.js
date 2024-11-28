@@ -125,6 +125,8 @@ prevButton.addEventListener("click", () => {
         document.querySelector(".h1").innerHTML = h1Texts[currentIndex];
     }
 
+    
+
     // GSAP animation for previous section 
 
     gsap.to(".logo", { color: logoColors[currentIndex], duration: 1 });
