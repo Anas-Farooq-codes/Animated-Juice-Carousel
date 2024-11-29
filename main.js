@@ -110,9 +110,7 @@ prevButton.addEventListener("click", () => {
 
     // Move currentPosition to the right by 100% if it's less than 0 
 
-
-    
-    if (currentPosition < 0) {
+        if (currentPosition < 0) {
         currentPosition += 100;
         canLabels.style.left = `${currentPosition}%`;
         sectionContainer.style.left = `${currentPosition}%`;
